@@ -2,7 +2,7 @@
 
 ww-helper is a small collection of helper functions
 
-I'll alwyas try to do ``($hackstack, $needle)``.
+I'll always try to do ``($hackstack, $needle)``.
 If you find a function that does not follow this rule
 feel free to open an issue or a PR
 
