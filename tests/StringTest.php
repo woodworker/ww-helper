@@ -24,7 +24,7 @@ class StringTests extends \PHPUnit_Framework_TestCase {
      * @param $result
      */
     public function testEndsWith($haystack, $needle, $result) {
-        $this->assertEquals($result, startsWith($haystack, $needle));
+        $this->assertEquals($result, starts_with($haystack, $needle));
     }
 
     /**
@@ -45,7 +45,7 @@ class StringTests extends \PHPUnit_Framework_TestCase {
      * @param $result
      */
     public function testStartsWith($haystack, $needle, $result) {
-        $this->assertEquals($result, endsWith($haystack, $needle));
+        $this->assertEquals($result, ends_with($haystack, $needle));
     }
 }
 

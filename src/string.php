@@ -6,7 +6,7 @@ namespace woodworker\string;
  * @param string $needle
  * @return bool
  */
-function startsWith($haystack, $needle) {
+function starts_with($haystack, $needle) {
     if (!is_string($haystack) || !is_string($needle)) {
         throw new \InvalidArgumentException('');
     }
@@ -18,7 +18,7 @@ function startsWith($haystack, $needle) {
  * @param string $needle
  * @return bool
  */
-function endsWith($haystack, $needle) {
+function ends_with($haystack, $needle) {
     if (!is_string($haystack) || !is_string($needle)) {
         throw new \InvalidArgumentException();
     }
