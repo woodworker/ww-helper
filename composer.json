@@ -10,7 +10,10 @@
     "phpunit/phpunit": "~4.7"
   },
   "autoload": {
-    "files": ["src/string.php"]
+    "files": [
+        "src/string.php",
+        "src/arrays.php"
+    ]
   },
   "authors": [
     {
