@@ -10,6 +10,7 @@ feel free to open an issue or a PR
 
 * woodworker\string\starts_with
 * woodworker\string\ends_with
+* woodworker\string\in_string
 
 ### Array helper
 
