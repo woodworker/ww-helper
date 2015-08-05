@@ -24,3 +24,19 @@ function ends_with($haystack, $needle) {
     }
     return $needle === "" || substr($haystack, -strlen($needle)) === $needle;
 }
+
+/**
+ * @param string $haystack
+ * @param string $needle
+ * @param bool $caseInsensitive
+ * @return boolean
+ */
+function in_string($haystack, $needle, $caseInsensitive = false) {
+    if (!$needle) {
+        return false;
+    }
+    if ($caseInsensitive) {
+        return (false !== stristr($haystack, $needle)) ? true : false;
+    }
+    return (false !== strpos($haystack, $needle)) ? true : false;
+}
